@@ -8,7 +8,7 @@ const LocalMain: FC = () => {
 
   return (
 		<main>
-      <Image src={tortoise} width={500} placeholder="empty" quality={100} priority /> 
+      <Image src={tortoise} width={500} placeholder="empty" quality={100} priority alt="" /> 
       {/* priority: 우선순위를 주는 옵션 */}
 		</main>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import { baskervville, noto_sans } from "@/styles/fonts";
 import Head from "next/head";
 import { FC } from "react";

@@ -24,7 +24,7 @@ interface Props {
 const CatchAllSegments: FC<Props> = (props) => {
   return <main>CATCH-ALL-SEGMENTS
     <ol>{props.params?.map((item)=>{
-      return <li>{item}</li>;
+      return <li key={item}>{item}</li>;
     })}</ol>
   </main>;
 };
